@@ -157,6 +157,9 @@ ol {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
+	/* object-fit: scale-down; */
+
+	/* overflow: hidden; */
 }
 
 .spad {
@@ -342,7 +345,7 @@ ol {
 -----------------------*/
 
 .header {
-	background: #070720;
+	background: #111;
 }
 
 .header__logo {
@@ -363,7 +366,9 @@ ol {
 	position: relative;
 	margin-right: 16px;
 }
-
+.header__menu ul li a {
+	color: #fff !important;
+}
 .header__menu ul li.active a {
 	background: #e53637;
 	color: #ffffff;
